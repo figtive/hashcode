@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/codes/hashcode/2021/qual/out/0549/_temp.py", line 184, in <module>
+    main()
+  File "/Users/daystram/codes/hashcode/2021/qual/out/0549/_temp.py", line 71, in main
+    duration = streets_popularity[street.name] / intersection_popularity[intersection.id] * D // constant
+ZeroDivisionError: division by zero

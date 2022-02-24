@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/codes/hashcode/2021/qual/out/061705/_temp.py", line 191, in <module>
+    main()
+  File "/Users/daystram/codes/hashcode/2021/qual/out/061705/_temp.py", line 70, in main
+    constant = 2 if D < 10 else random.randint(500,2000)
+NameError: name 'random' is not defined

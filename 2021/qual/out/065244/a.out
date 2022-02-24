@@ -1,0 +1,4 @@
+  File "/Users/daystram/codes/hashcode/2021/qual/out/065244/_temp.py", line 74
+    max_route = len(car.streets) if max_route < len(car.streets) 
+                                                                 ^
+SyntaxError: invalid syntax

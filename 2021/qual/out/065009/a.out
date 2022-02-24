@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/codes/hashcode/2021/qual/out/065009/_temp.py", line 195, in <module>
+    main()
+  File "/Users/daystram/codes/hashcode/2021/qual/out/065009/_temp.py", line 72, in main
+    max_route = 1 if len(street.cars) == 0 else len(street.cars[0].routes)
+AttributeError: 'Car' object has no attribute 'routes'

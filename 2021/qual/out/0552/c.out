@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/daystram/codes/hashcode/2021/qual/out/0552/_temp.py", line 187, in <module>
+    main()
+  File "/Users/daystram/codes/hashcode/2021/qual/out/0552/_temp.py", line 74, in main
+    intersection.set_schedule(schedule)
+  File "/Users/daystram/codes/hashcode/2021/qual/out/0552/_temp.py", line 152, in set_schedule
+    self.green = list(next(self.schedule_cycle))
+StopIteration

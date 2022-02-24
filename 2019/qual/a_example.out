@@ -1,0 +1,4 @@
+  File "/Users/daystram/codes/hashcode/2019/qual/solver.py", line 10
+    orientation, _, tags* = sys.stdin.readline().strip().split(" ")
+                          ^
+SyntaxError: invalid syntax

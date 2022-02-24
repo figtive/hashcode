@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/codes/hashcode/2021/qual/out/071942/_temp-071942.py", line 195, in <module>
+    main()
+  File "/Users/daystram/codes/hashcode/2021/qual/out/071942/_temp-071942.py", line 73, in main
+    duration = (1 * ((streets_popularity[street.name] if streets_popularity[street.name] > 1 else 1) / intersection_popularity[intersection.id])) * (D // constant)
+ZeroDivisionError: division by zero

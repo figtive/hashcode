@@ -1,0 +1,4 @@
+  File "/Users/daystram/codes/hashcode/2021/qual/out/072612/_temp-072612.py", line 73
+    duration = ((streets_popularity[street.name] / intersection_popularity[intersection.id]))) * ((D))// constant
+                                                                                             ^
+SyntaxError: unmatched ')'
