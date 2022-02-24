@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/063009/_temp-063009.py", line 201, in <module>
+    main()
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/063009/_temp-063009.py", line 111, in main
+    if mentor.skills[required_skill.name].level >= required_skill.level:
+KeyError: 's79'

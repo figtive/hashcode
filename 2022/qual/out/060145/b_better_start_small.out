@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/060145/_temp-060145.py", line 165, in <module>
+    main()
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/060145/_temp-060145.py", line 93, in main
+    if contributor.skills[contributor.current_skill_name].level <= contributor.current_project.skills[contributor.current_skill_name].level:
+TypeError: list indices must be integers or slices, not str

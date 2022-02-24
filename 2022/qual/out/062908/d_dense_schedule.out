@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/062908/_temp-062908.py", line 201, in <module>
+    main()
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/062908/_temp-062908.py", line 85, in main
+    projects.sort(key=lambda x: x.score, reverse=True)
+AttributeError: 'dict' object has no attribute 'sort'

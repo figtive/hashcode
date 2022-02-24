@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/040810/_temp-040810.py", line 97, in <module>
+    main()
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/040810/_temp-040810.py", line 32, in main
+    contributors.append(Contributor(name, skills))
+AttributeError: 'dict' object has no attribute 'append'

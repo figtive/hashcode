@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/055623/_temp-055623.py", line 163, in <module>
+    main()
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/055623/_temp-055623.py", line 58, in main
+    contributor_skill[s.name] = []
+NameError: name 'contributor_skill' is not defined

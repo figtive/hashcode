@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/041258/_temp-041258.py", line 99, in <module>
+    main()
+  File "/Users/daystram/workspace/github.com/figtive/hashcode/2022/qual/out/041258/_temp-041258.py", line 41, in main
+    name, L = sys.stdin.readline().strip().split(" ")
+ValueError: too many values to unpack (expected 2)
