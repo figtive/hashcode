@@ -6,13 +6,17 @@ if [[ $1 = "killall" ]]; then
 fi
 
 TIMESTAMP=$(date +"%H%M%S")
-EXEC="out/$TIMESTAMP/_temp-$TIMESTAMP.py"
+TEMP="out/$TIMESTAMP/temp-$TIMESTAMP.go"
+TEMP_EXEC="out/$TIMESTAMP/solver"
 
 mkdir -p "out/$TIMESTAMP"
-cp $1 $EXEC
+cp $1 $TEMP
+
+go build -o $TEMP_EXEC $TEMP
+
 echo "======================================== $TIMESTAMP"
 for FILENAME in $(find ./in -name '*.in' | sort); do
     CASE=${FILENAME:5:-3}
-    python $EXEC $CASE < "in/$CASE.in" 2> "out/$TIMESTAMP/$CASE.out" &
+    $TEMP_EXEC $CASE < "in/$CASE.in" > "out/$TIMESTAMP/$CASE.out" &
 done
 wait

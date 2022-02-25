@@ -142,11 +142,11 @@ def main():
                     project.contributors = []
 
     # OUTPUT
-    print(len(project_selected), file=sys.stderr)
+    print(len(project_selected))
     for project in project_selected:
-        print(project.name, file=sys.stderr)
+        print(project.name)
         print(
-            " ".join([c.name for c in project.contributors]), file=sys.stderr)
+            " ".join([c.name for c in project.contributors]))
 
 
 class Contributor:
@@ -196,7 +196,7 @@ class Project:
 
 def log(message, force=False):
     if DEBUG or force:
-        print(f"{TESTCASE:20.20}\t{message}")
+        print(f"{TESTCASE:20.20}\t{message}", file=sys.stderr)
 
 
 if __name__ == "__main__":
