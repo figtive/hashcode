@@ -7,7 +7,7 @@ fi
 
 TIMESTAMP=$(date +"%H%M%S")
 TEMP="out/$TIMESTAMP/temp-$TIMESTAMP.go"
-TEMP_EXEC="out/$TIMESTAMP/solver"
+TEMP_EXEC="out/$TIMESTAMP/_temp-solver"
 
 mkdir -p "out/$TIMESTAMP"
 cp $1 $TEMP

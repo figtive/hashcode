@@ -26,7 +26,7 @@ def main():
     #   {2: maria}
     # }
     contributors_skill = {}
-    # contributors_skill[contributor_name] = the contributor's name
+    # contributors_skill[skill_name] = the contributor's name
 
     def bump_level(contributor, skill_name):
         curr_level = contributor.skills[skill_name].level
